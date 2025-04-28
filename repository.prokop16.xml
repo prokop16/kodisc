@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.prokop16" name="Prokop16's Repository" version="1.0.0" provider-name="prokop16">
+        <extension point="xbmc.addon.repository" name="Prokop16's Repository">
+            <info>https://raw.githubusercontent.com/prokop16/kodi-repository/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/prokop16/kodi-repository/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/prokop16/kodi-repository/main/zips/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Prokop16's Kodi Add-on Collection</summary>
+            <description>This repository contains various Kodi add-ons maintained by prokop16. Install this repository to get automatic updates for all included add-ons.</description>
+            <platform>all</platform>
+            <news>- Initial release of the repository</news>
+        </extension>
+    </addon>
+</addons>
